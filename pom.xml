@@ -16,6 +16,7 @@
     <description>GitTest2</description>
     <properties>
         <java.version>1.8</java.version>
+        <myProperty1>Hello World</myProperty1>
     </properties>
     <dependencies>
         <dependency>
@@ -50,10 +51,12 @@
     </dependencies>
 
     <build>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+
                 <configuration>
                     <excludes>
                         <exclude>
@@ -62,8 +65,10 @@
                         </exclude>
                     </excludes>
                 </configuration>
+
             </plugin>
         </plugins>
+
     </build>
 
 </project>
