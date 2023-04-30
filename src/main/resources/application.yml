@@ -1,5 +1,5 @@
 server:
-  port: 5450
+  port: 7500
 
 spring:
   h2:
