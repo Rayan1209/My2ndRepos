@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController
 {
 
-    @RequestMapping( method = RequestMethod.GET ,path = "/test1"
+    @RequestMapping( method = RequestMethod.GET ,path = "/test2"
                     )
     public ResponseEntity<?>  getname()
     {
