@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController
 {
 
-    @RequestMapping( method = RequestMethod.GET ,path = "/test2"
-                    )
+    @RequestMapping( method = RequestMethod.GET ,path = "/test1" ,
+                     produces = "application/json" )
     public ResponseEntity<?>  getname()
     {
         return  ResponseEntity
