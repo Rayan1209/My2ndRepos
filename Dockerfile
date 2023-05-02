@@ -12,4 +12,4 @@ MAINTAINER ByBuzz
 
 #Copy App War file into tomcat server running inside the container
 
-COPY ./GitTest2-0.0.1-SNAPSHOT.war /usr/local//tomcat/webapps
+COPY ./GitTest2-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps
