@@ -18,7 +18,7 @@ public class MyController
         return  ResponseEntity
                 .status(HttpStatus.OK)
                 .header("custom","Hello World")
-                .body("test1");
+                .body("This is CICD Pipeline testing..");
 
 
 
